@@ -1,0 +1,482 @@
+/********************
+  Universal Styles
+********************/
+* {
+
+}
+
+html {
+
+}
+
+body {
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1em;
+  color: #291641;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+/********************
+  Header Styles
+********************/
+.header {
+  width: 100%;
+  /*height: 120px;*/
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  color: #fdfdfd;
+  margin: 0;
+}
+
+.heading {
+  text-align: center;
+  background-color: #291641;
+  background: linear-gradient(to bottom, #291641 , #46355A, #291641);
+  padding: 1em 0;
+}
+
+.heading__home-link {
+  display: block;
+  width: 80%;
+  max-width: 16em;
+  margin: 0 auto;
+}
+
+.heading__logo {
+  width: 100%;
+}
+
+.heading__subtitle {
+  display: block;
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.menu {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+
+.menu__link {
+  box-sizing: border-box;
+  display: inline-block;
+  width: calc(100%/3);
+  padding: 16px 0;
+  margin: 0;
+  border: solid #291641 2px;
+  border-top: none;
+  text-align: center;
+  font-weight: 700;
+  /*font-size: 1em;*/
+  color: #291641;
+  /*background-color: #fdfdfd;*/
+}
+
+.menu__link--about {
+  border-left: none;
+  border-right: none;
+}
+
+/********************
+  Main Styles
+********************/
+.main {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: .5em;
+  margin-bottom: 1em;
+}
+
+.content {
+  width: 100%;
+}
+
+.banner {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.banner__img {
+  width: 100%;
+}
+
+.vendor {
+
+}
+
+.vendor__title {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.vendor__list {
+  padding-top: .5em;
+}
+
+.vendor__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  height: 2em;
+  margin: 0 auto;
+  font-size: 1em;
+  font-weight: 700;
+  background-color: #291641;
+  color: #fdfdfd;
+  opacity: .9;
+}
+
+.vendor__link--skylight {
+  margin: .5em auto;
+}
+
+.promo {
+  font-size: 1.2em;
+  margin: .5em 0 0;
+  font-weight: 400;
+}
+
+/********************
+  About Styles
+********************/
+#about .menu__link--about {
+  color: #fdfdfd;
+  background-color: #291641;
+}
+
+.content__heading {
+  width: 90%;
+  margin: 1rem auto .5rem;
+  font-size: 1.5em;
+  font-weight: 700;
+  border-bottom: solid #291641 2px;
+}
+
+.synopsis {
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.synopsis__heading {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+figure {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.video-container {
+  /*width: 400px;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;*/
+  position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-heading {
+  margin-top: 10px;
+}
+
+/********************
+  Reviews Styles
+********************/
+#reviews .menu__link--reviews {
+  color: #fdfdfd;
+  background-color: #291641;
+}
+
+.review {
+  width: 90%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.review__title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.review__title--amazon {
+  margin: 1rem 0;
+  /*width: 80%;
+  max-width: 260px;*/
+  font-size: 1rem;
+}
+
+.review__link {
+  color: #291641;
+  font-size: 1em;
+}
+
+.review__link--amazon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #291641;
+  color: #fdfdfd;
+  opacity: .9;
+  width: 100%;
+  height: 2rem;
+}
+
+.review__p {
+  margin-top: .5rem;
+}
+
+/********************
+  Footer Styles
+********************/
+.footer {
+  width: 100%;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #291641;
+  background: linear-gradient(to top, #291641 , #46355A);
+  color: #fdfdfd;
+}
+
+.social-menu {
+  display: block;
+  height: 1.5em;
+}
+
+.social-menu__link {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  height: 1.5em;
+}
+
+.social-menu__icon {
+  display: inline-block;
+  width: 1.5em;
+}
+
+.social-menu__link--twitter {
+  margin: 0 3em;
+}
+
+/********************
+  Desktop Styles
+********************/
+
+@media only screen and (min-width: 1000px) {
+  html {
+    height: 100%;
+  }
+
+  body {
+    min-height: 100%;
+    position: relative;
+    /*display: flex;*/
+  }
+
+  .wrapper {
+    min-height: 100%;
+    /*position: relative;*/
+    padding-bottom: 3rem;
+    /*flex: 1;*/
+  }
+
+  /**********
+  Header Styles
+  **********/
+  .header {
+    width: 100%;
+    height: 6em;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: #291641;
+    background: linear-gradient(to bottom, #291641 , #46355A 46%, #46355A 54%, #291641);
+    margin: 0;
+    padding-left: 1.25em;
+  }
+
+  .heading {
+    padding: .5em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading__home-link {
+    display: inline-block;
+    max-width: 11em;
+    margin: 0 auto;
+  }
+
+  .heading__logo {
+    padding-top: .5em;
+  }
+
+  .heading__subtitle {
+    display: inline-block;
+    font-size: 1em;
+    padding-top: 2.5em;
+  }
+
+  .menu {
+    width: 18em;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    position: absolute;
+    right: 1.25em;
+  }
+
+  .menu__link {
+    box-sizing: border-box;
+    display: inline-block;
+    width: calc(100%/3);
+    padding: 16px 0;
+    margin: 0;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+    /*font-size: 1em;*/
+    color: #fdfdfd;
+    /*background-color: #fdfdfd;*/
+  }
+
+  .menu__link:hover {
+    color: #291641;
+    background-color: #fdfdfd;
+    transition: ease-in .15s;
+  }
+
+  .menu__link--about {
+    margin: 0 1em;
+  }
+
+  /**********
+  Main Styles
+  **********/
+  #home .content {
+    height: calc(100vh - 10.5em);
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner {
+    width: calc(100vh - 12em);
+    min-width: 23em;
+    margin: 0 auto;
+  }
+
+  .banner__img {
+    width: 100%;
+  }
+
+  .vendor__title {
+    margin: 0;
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+
+  .vendor__list {
+    padding-top: .5em;
+  }
+
+  .vendor__link {
+    display: inline-flex;
+  }
+
+  .vendor__link:hover {
+    background-color: #fdfdfd;
+    color: #291641;
+    transition: ease-in .15s;
+  }
+
+  .vendor__link--skylight {
+    margin: 0 1em;
+  }
+
+  .promo {
+    margin: 1em 0 0;
+  }
+
+  /**********
+  About & Reviews Styles
+  **********/
+  #about .menu__link--about {
+    background-color: #fdfdfd;
+    color: #291641;
+  }
+
+  #reviews .menu__link--reviews {
+    background-color: #fdfdfd;
+    color: #291641;
+  }
+
+  #about .content,
+  #reviews .content {
+    max-width: 900px;
+  }
+
+  .review__title--amazon {
+    /*margin: 1rem 0;
+    width: 100%;
+    max-width: 100%;*/
+  }
+
+  .review__link--amazon:hover {
+    background-color: #fdfdfd;
+    color: #291641;
+    transition: ease-in .15s;
+  }
+
+  /**********
+  Footer Styles
+  **********/
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3em;
+  }
+
+}
