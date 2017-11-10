@@ -468,6 +468,8 @@ figure {
     background-color: #fdfdfd;
     color: #291641;
     transition: ease-in .15s;
+    border: solid #291641 2px;
+    box-sizing: border-box;
   }
 
   /**********
